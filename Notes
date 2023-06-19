@@ -1,0 +1,11 @@
+POM, is a design pattern in Selenium that creates an object repository for storing all web elements. 
+It helps reduce code duplication and improves test case maintenance.
+----------------------------------------------------------------------------------------
+Page Factory is a class provided by Selenium WebDriver to support Page Object Design patterns. 
+In Page Factory, testers use @FindBy annotation. The initElements method is used to initialize web elements.
+
+@FindBy: An annotation used in Page Factory to locate and declare web elements using different locators.
+Syntax - @FindBy(Locator="Value")
+initElements(): initElements is a static method in Page Factory class. 
+Using the initElements method, one can initialize all the web elements located by @FindBy annotation
+Syntax - PageFactory.initElements(driver, Filename.class);
